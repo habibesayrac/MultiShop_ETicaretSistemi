@@ -22,7 +22,7 @@ namespace MultiShop.Catalog.Services.ProductServices
         }
         public async Task CreateProductAsync(CreateProductDto createProductDto)
         {
-            var value = _mapper.Map<Product>(createProductDto);
+            var value =  _mapper.Map<Product>(createProductDto);
             await _productCollection.InsertOneAsync(value);
         }
 
