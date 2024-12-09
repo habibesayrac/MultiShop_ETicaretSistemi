@@ -10,8 +10,5 @@ namespace MultiShop.Discount.Context
 
 
 
-
-
-
     }
 }
